@@ -54,3 +54,30 @@ footer {
     background: #333;
     color: #fff;
 }
+
+.main-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog article {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.sidebar .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+}
